@@ -12,5 +12,5 @@ app.use(require('./routes/'));
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
-  sequelize.sync({force: false})//.then(() => seedsSync())
+  sequelize.sync({force: false})
 });

@@ -69,7 +69,7 @@ router.delete('/:id', (req, res) => {
   })
   .then(catgData => {!catgData ? 
     res.status(404).json({"message": "No category found with this id"}) :
-    res.json({"Success":"Category has been updated", "Category": catgData})
+    res.json({"Success":"Category has been deleted", "Category": catgData})
   })
   .catch(err => {
     console.log(err);
