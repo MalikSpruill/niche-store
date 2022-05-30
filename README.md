@@ -5,6 +5,7 @@
   ## Description
   An E-commerce application to primarily showcase utilization of backend to provide proper database connections to frontend product interactions.
 
+  https://user-images.githubusercontent.com/83142065/171067935-379d0a2a-ecde-4355-beab-14d3c7461925.mp4
   
   ## Table of Contents
   * [Installation](#installation)
